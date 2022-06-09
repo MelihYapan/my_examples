@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+<script type="text/javascript">
+	function yazdir(){     
+			document.getElementById('baslik').innerHTML="Tıklanıldı";
+	}
+	function uyari(){     
+			document.getElementById('baslik').innerHTML="Çıkıldı";
+	}
+</script>
+</head>
+<body>
+<h1 id="baslik"></h1>
+
+<button onblur="uyari();" onfocus="yazdir();" ><h1>Buton Tıkla</h1></button>
+
+
+
+
+
+
+</body>
+</html>
+
